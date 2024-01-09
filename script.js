@@ -4,6 +4,7 @@ let toCurrency = document.querySelector(".to select");
 let icon = document.querySelector(".icon");
 let exchangeTxt = document.querySelector(".exchange_rate");
 let getBtn = document.querySelector("button");
+let swapBtn= document.getElementById("swap-btn");
 
 //adding options tag
 
@@ -79,3 +80,4 @@ icon.addEventListener("click", () => {
   loadFlag(toCurrency);
   getExchangeValue();
 });
+
