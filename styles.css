@@ -8,12 +8,14 @@
   box-sizing: border-box;
 }
 
-::selection {
+::selection 
+{
   background: ;
   color: #fff;
 }
 
-body {
+body 
+{
   min-height: 100vh;
   padding: 0 10px;
   display: flex;
@@ -22,7 +24,8 @@ body {
   background: linear-gradient(320deg , #3c096c ,#5a189a , #7b2cbf );
 }
 
-.wrapper {
+.wrapper
+{
   width: 370px;
   background: #fff;
   padding: 30px;
@@ -31,34 +34,39 @@ body {
   text-align: center;
 }
 
-.wrapper header {
+.wrapper header 
+{
   font-size: 22px;
   font-weight: 600;
   color: #10002b;
   text-align: center;
 }
 
-.wrapper form {
+.wrapper form 
+{
   margin: 40px 0 20px 0;
 }
 
 .wrapper form input,
 .wrapper form select,
-.wrapper form button {
+.wrapper form button 
+{
   width: 100%;
   border: none;
   outline: none;
   border-radius: 15px;
 }
 
-.wrapper form p {
+.wrapper form p 
+{
   font-size: 18px;
   color: #10002b;
   margin-bottom: 5px;
   font-weight: bolder;
 }
 
-.wrapper form input {
+.wrapper form input 
+{
   height: 50px;
   padding: 0 15px;
   border: 1px solid #999;
@@ -66,19 +74,22 @@ body {
   color: #10002b;
 }
 
-.wrapper form input:focus {
+.wrapper form input:focus 
+{
   border: 2px solid #240046;
   padding: 0 14px;
 }
 
-.wrapper form .drop-list {
+.wrapper form .drop-list 
+{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.wrapper form .drop-list .select-box {
+.wrapper form .drop-list .select-box 
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,11 +100,13 @@ body {
 }
 
 
-.wrapper form .drop-list .select-box img {
+.wrapper form .drop-list .select-box img 
+{
   max-width: 21px;
 }
 
-.wrapper form .drop-list .select-box select {
+.wrapper form .drop-list .select-box select 
+{
   width: auto;
   font-size: 16px;
   font-weight: bolder;
@@ -101,21 +114,25 @@ body {
   cursor: pointer;
 }
 
-.wrapper form .drop-list .select-box select::-webkit-scrollbar {
+.wrapper form .drop-list .select-box select::-webkit-scrollbar 
+{
   width: 8px;
 }
 
-.wrapper form .drop-list .select-box select::-webkit-scrollbar-track {
+.wrapper form .drop-list .select-box select::-webkit-scrollbar-track 
+{
   background: #fff;
 }
 
-.wrapper form .drop-list .select-box select::-webkit-scrollbar-thumb {
+.wrapper form .drop-list .select-box select::-webkit-scrollbar-thumb 
+{
   background: #888;
   border-radius: 15px;
   border-right: 2px solid #fff;
 }
 
-.wrapper .drop-list .icon {
+.wrapper .drop-list .icon 
+{
   font-size: 22px;
   margin-top: 30px;
   cursor: pointer;
@@ -131,14 +148,16 @@ body {
 }
 
 
-.wrapper form .exchange_rate {
+.wrapper form .exchange_rate 
+{
   font-size: 20px;
   margin: 20px 0 30px;
   font-weight: bolder;
   color: #10002b;
 }
 
-.wrapper form button {
+.wrapper form button 
+{
   height: 52px;
   background: #240046;
   color: #fff;
@@ -147,7 +166,8 @@ body {
   transition: all 0.3s ease;
 }
 
-.wrapper form button:hover {
+.wrapper form button:hover
+{
   background: transparent;
   color: #240046;
   border: 2px solid #240046;
@@ -160,7 +180,18 @@ select
   cursor: pointer;
 }
 
+select:active
+{
+  transform: scale(0.97);
+}
+
 button
 {
   margin-top: 30px;
 }
+
+button:active
+{
+  transform: scale(0.96);
+}
+
